@@ -1,0 +1,28 @@
+.selected-items {
+    padding: 10px;
+  }
+  
+  .selected-items ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .selected-items li {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .selected-items li button {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .selected-items li button:hover {
+    text-decoration: underline;
+  }
+  

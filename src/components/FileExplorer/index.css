@@ -1,0 +1,43 @@
+.file-explorer {
+    padding: 10px;
+    width: 100%;
+    max-height: 400px; 
+    overflow-y: auto;
+  }
+  
+  .file-explorer table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .file-explorer th, .file-explorer td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .file-explorer th {
+    background-color: #f4f4f4;
+  }
+  
+  .file-explorer tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .file-explorer td {
+    cursor: pointer;
+  }
+  .file-explorer td input {
+    transform: scale(1.5);
+  }
+  
+
+  .file-explorer tbody {
+    overflow-y: auto; 
+  }
+  
+  .file-explorer input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 5px; 
+    vertical-align: middle; 
+  }
